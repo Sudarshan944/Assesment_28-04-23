@@ -6,9 +6,9 @@ number_book2 = int(input("Number of Python Libraries Cookbook books:"))
 number_book3 = int(input("Number of Data Science in Python books:"))
 if number_book1 < 0:
     print("Invalid input please enter positive number")
-elif number_book1 < 0:
+elif number_book2 < 0:
     print("Invalid input please enter positive number")
-elif number_book1 < 0:
+elif number_book3 < 0:
     print("Invalid input please enter positive number")
 else:
     price1 = 499.0 * number_book1
